@@ -28,7 +28,6 @@ public abstract class Futbolista implements Comparable<Object> {
 
     public abstract boolean jugarConLasManos();
 
-    // Getters and Setters
     public String getNombre() {
         return nombre;
     }
@@ -48,3 +47,4 @@ public abstract class Futbolista implements Comparable<Object> {
     public String getPosicion() {
         return posicion;
     }
+}
